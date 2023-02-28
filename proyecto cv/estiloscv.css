@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Rubik+Marker+Hatch&display=swap');  
+
+
+.fondo{              /*fondo con imagen*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background: url(./fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fondo-texto{
+    color: black;
+    text-align: top;
+    justify-self: center;
+}   
+.fondo-info{              /*fondo paginas informacion*/
+    width: 100vw;
+    height: 100vh;
+ }
+.fondo-info P  {
+  text-align: left;
+}
+
+.foto{      /* cuadro foto principal*/
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    background: url(./vete4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.foto p{       /* descripcion foto principal*/
+    margin-top: 80px;
+    padding: 0 5px;
+    text-indent: 50px;
+}
+
+ul li{
+    display: inline;
+    background-color:pink;
+    font-size: 30px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.encabezado { text-align: center;}
+ p {
+
+    background:url(./patas4.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 70px;
+    font-family: 'Nerko One', cursive;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+.top { 
+    text-align: center;
+   /* display: inline;*/
+    font-size: 60px;
+    font-family: 'Nerko One', cursive;
+    font-style: oblique;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+i{
+    font-size: 50px;   /*tamaño texto font awe*/
+}
+
+
+
+.botonera{               /*fondo seccion botonera de menu*/
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background: url(./patitas.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+a{color: black;   /*texto botonera*/
+font-weight: bold;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu1{         /*atrib botoneras de menu*/
+    width: 200px;
+    height: 80px;
+    border: 5px solid black;
+    background: url(./patas5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+    .menu1 p{
+        margin-top: 80px;
+        padding: 0 5px;
+        line-height: 15px;
+        color: black;
+       
+    }
+.menu2{
+    width: 200px;
+    height: 80px;
+    border: 5px solid black;
+    background: url(./patas5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+    .menu2 p{
+        margin-top: 80px;
+        padding: 0 5px;
+        line-height: 15px;
+    }
+.menu3{
+    width: 200px;
+    height: 80px;
+    border: 5px solid black;
+    background: url(./patas5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+    .menu3 p{
+        margin-top: 80px;
+        padding: 0 5px;
+        line-height: 15px;
+    }
+.menu4{
+    width: 200px;
+    height: 80px;
+    border: 5px solid black;
+    background: url(./patas5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: bolder;
+    background-position: center;}
+    .menu4 p{
+        margin-top: 80px;
+        padding: 0 5px;
+        line-height: 15px;
+    }
+
+
+.
+
+    
+
+
+  
+x{color: brown;
+font-family: fantasy;
+font-size: 60px;}
+
